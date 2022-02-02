@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>AmesSafe | Inicio</title>
+</head>
+<body>
+    
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar__logo">
+            <a href="#">
+              <img class="navbar__logo--img" src="./assets/logo.png" alt="logo">
+            </a>
+          </div>
+          <div class="navbar__items">
+            <button id='menu' class="navbar__menu"><i class="bx bx-menu"></i></button>
+            <ul id='navbarLinks' class="navbar__links">
+              <li><a class="navbar__link" href="/">Inicio</a></li>
+              <li><a class="navbar__link" href="#">Nosotros</a></li>
+              <li><a class="navbar__link" href="#">Servicios</a></li>
+              <li><a class="navbar__link" href="#">Contáctenos</a></li>
+            </ul>
+            <div class="navbar__contact">
+              <a class="navbar__contact--phone" href="tel:927322423">Llámanos al 927 322 423</a>
+              <a class="navbar__contact--mail" href="mailto:jeanpierre.webdev@gmail.com">jeanpierre.webdev@gmail.com</a>
+            </div>
+            <button id='closeMenu' class="navbar__close-menu"><i class="bx bx-x"></i></button>
+          </div>
+      </nav>
+      </div>
+    </header>
+    <main>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h1>Titulo del servicio</h1>
+            <p>Descripción del servicio</p>
+            <a href="#">Botón a Servicio</a>
+          </div>
+          <div class="swiper-slide">
+            <h1>Titulo del servicio</h1>
+            <p>Descripción del servicio</p>
+            <a href="#">Botón a Servicio</a>
+          </div>
+          <div class="swiper-slide">
+            <h1>Titulo del servicio</h1>
+            <p>Descripción del servicio</p>
+            <a href="#">Botón a Servicio</a>
+          </div>
+          <div class="swiper-slide">
+            <h1>Titulo del servicio</h1>
+            <p>Descripción del servicio</p>
+            <a href="#">Botón a Servicio</a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </main>
+
+    <section class="container servicios">
+      <h2>Servicios</h2>
+      <div class="card">
+        <div class="face front">
+          <i class='bx bx-first-aid'></i>
+          <p>Gestión de Seguridad y Salud en el Trabajo</p>
+        </div>
+        <div class="face back">
+          <i class='bx bx-first-aid'></i>
+          <p>Gestión de Seguridad y Salud en el Trabajo</p>
+          <div class="link">
+            <a href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face front">
+          <i class='bx bx-first-aid'></i>
+          <p>Respuesta de Emergencia</p>
+        </div>
+        <div class="face back">
+          <i class='bx bx-first-aid'></i>
+          <p>Respuesta de Emergencia</p>
+          <div class="link">
+            <a href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face front">
+          <i class='bx bx-first-aid'></i>
+          <p>Capacitación y Entrenamiento</p>
+        </div>
+        <div class="face back">
+          <i class='bx bx-first-aid'></i>
+          <p>Capacitación y Entrenamiento</p>
+          <div class="link">
+            <a href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face front">
+          <i class='bx bx-first-aid'></i>
+          <p>Gestión de la Calidad</p>
+        </div>
+        <div class="face back">
+          <i class='bx bx-first-aid'></i>
+          <p>Gestión de la Calidad</p>
+          <div class="link">
+            <a href="#">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="nosotros container">
+      <img src="./assets/img/slide1.webp" alt="nosotros">
+      <div>
+        <h2>Nosotros</h2>
+        <div class="slider">
+          
+        </div>
+      </div>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
