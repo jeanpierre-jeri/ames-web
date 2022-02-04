@@ -33,3 +33,18 @@ const swiper = new Swiper('.mySwiper', {
     prevEl: '.swiper-button-prev',
   },
 })
+
+// Slider Nosotros
+
+const swiper2 = new Swiper('.mySwiper2', {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination2',
+  },
+})
