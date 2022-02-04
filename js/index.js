@@ -1,17 +1,8 @@
 const btnMenu = document.querySelector('#menu')
-const closeMenu = document.querySelector('#closeMenu')
 const navbarLinks = document.querySelector('#navbarLinks')
 
 btnMenu.addEventListener('click', () => {
-  navbarLinks.classList.add('active')
-  btnMenu.style.display = 'none'
-  closeMenu.style.display = 'block'
-})
-
-closeMenu.addEventListener('click', () => {
-  navbarLinks.classList.remove('active')
-  btnMenu.style.display = 'grid'
-  closeMenu.style.display = 'none'
+  navbarLinks.classList.toggle('is-active')
 })
 
 // Slider

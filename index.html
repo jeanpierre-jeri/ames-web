@@ -18,31 +18,29 @@
 </head>
 <body>
     
-    <header class="header">
-      <div class="container">
-        <nav class="navbar">
-          <div class="navbar__logo">
-            <a href="#">
-              <img class="navbar__logo--img" src="./assets/logo.png" alt="logo">
-            </a>
-          </div>
-          <div class="navbar__items">
-            <button id='menu' class="navbar__menu"><i class="bx bx-menu"></i></button>
-            <ul id='navbarLinks' class="navbar__links">
-              <li><a class="navbar__link" href="/">Inicio</a></li>
-              <li><a class="navbar__link" href="#">Nosotros</a></li>
-              <li><a class="navbar__link" href="#">Servicios</a></li>
-              <li><a class="navbar__link" href="#">Contáctenos</a></li>
-            </ul>
-            <div class="navbar__contact">
-              <a class="navbar__contact--phone" href="tel:927322423">Llámanos al 927 322 423</a>
-              <a class="navbar__contact--mail" href="mailto:jeanpierre.webdev@gmail.com">jeanpierre.webdev@gmail.com</a>
-            </div>
-            <button id='closeMenu' class="navbar__close-menu"><i class="bx bx-x"></i></button>
-          </div>
-      </nav>
+  <header class="header">
+    <navbar class="navbar container">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="Logo">
       </div>
-    </header>
+      <div id="navbarLinks" class="nav__links">
+        <ul>
+          <li><a class="active" href="#">Inicio</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contáctenos</a></li>
+        </ul>
+        <div class="nav__contact">
+          <a href="tel:927322423">Llámanos 927322423</a>
+          <a href="mailto:jeanpierre.webdev@gmail.com">correo@gmail.com</a>
+        </div>
+      </div>
+      <div id="menu" class="menu">
+        <i class='bx bx-menu' ></i>
+      </div>
+    </navbar>
+  </header>
+    
     <main class='main-slider'>
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -75,55 +73,57 @@
 
     <section class="container servicios">
       <h2>Servicios</h2>
-      <div class="card">
-        <div class="face front">
-          <i class='bx bx-first-aid'></i>
-          <p>Gestión de Seguridad y Salud en el Trabajo</p>
-        </div>
-        <div class="face back">
-          <i class='bx bx-first-aid'></i>
-          <p>Gestión de Seguridad y Salud en el Trabajo</p>
-          <div class="link">
-            <a href="#">Ver más</a>
+      <div class="cards">
+        <div class="card">
+          <div class="face front">
+            <i class='bx bx-first-aid'></i>
+            <p>Gestión de Seguridad y Salud en el Trabajo</p>
+          </div>
+          <div class="face back">
+            <i class='bx bx-first-aid'></i>
+            <p>Gestión de Seguridad y Salud en el Trabajo</p>
+            <div class="link">
+              <a href="#">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="face front">
-          <i class='bx bx-first-aid'></i>
-          <p>Respuesta de Emergencia</p>
-        </div>
-        <div class="face back">
-          <i class='bx bx-first-aid'></i>
-          <p>Respuesta de Emergencia</p>
-          <div class="link">
-            <a href="#">Ver más</a>
+        <div class="card">
+          <div class="face front">
+            <i class='bx bx-first-aid'></i>
+            <p>Respuesta de Emergencia</p>
+          </div>
+          <div class="face back">
+            <i class='bx bx-first-aid'></i>
+            <p>Respuesta de Emergencia</p>
+            <div class="link">
+              <a href="#">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="face front">
-          <i class='bx bx-first-aid'></i>
-          <p>Capacitación y Entrenamiento</p>
-        </div>
-        <div class="face back">
-          <i class='bx bx-first-aid'></i>
-          <p>Capacitación y Entrenamiento</p>
-          <div class="link">
-            <a href="#">Ver más</a>
+        <div class="card">
+          <div class="face front">
+            <i class='bx bx-first-aid'></i>
+            <p>Capacitación y Entrenamiento</p>
+          </div>
+          <div class="face back">
+            <i class='bx bx-first-aid'></i>
+            <p>Capacitación y Entrenamiento</p>
+            <div class="link">
+              <a href="#">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="face front">
-          <i class='bx bx-first-aid'></i>
-          <p>Gestión de la Calidad</p>
-        </div>
-        <div class="face back">
-          <i class='bx bx-first-aid'></i>
-          <p>Gestión de la Calidad</p>
-          <div class="link">
-            <a href="#">Ver más</a>
+        <div class="card">
+          <div class="face front">
+            <i class='bx bx-first-aid'></i>
+            <p>Gestión de la Calidad</p>
+          </div>
+          <div class="face back">
+            <i class='bx bx-first-aid'></i>
+            <p>Gestión de la Calidad</p>
+            <div class="link">
+              <a href="#">Ver más</a>
+            </div>
           </div>
         </div>
       </div>
@@ -183,6 +183,7 @@
         <i class='bx bxl-whatsapp' ></i>
       </div>
     </footer>
+    <p>Todos los derechos reservados 2022</p>
   </div>
 
 
