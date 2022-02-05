@@ -185,6 +185,7 @@
   font-size: 1.875rem;
   margin-top: 2em;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .card {
@@ -303,6 +304,31 @@
 .nosotros__titulo i {
   font-size: 4.125rem;
 }
+
+@media only screen and (min-width: 800px) {
+  .nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nosotros img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slider-nosotros {
+    width: 30rem;
+    height: 50%;
+    margin-left: 2em;
+  }
+
+  .slider-nosotros h2 {
+    margin-block: 1.5em;
+  }
+}
+
+/* Footer */
 
 .footer-bg {
   background-color: #111;
