@@ -36,10 +36,18 @@
   margin-block: 5em;
 }
 
+.nav__links ul a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff6c00;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.4em;
+}
+
 .nav__links a.active {
   text-decoration: underline;
   text-decoration-color: #ff6c00;
   text-decoration-thickness: 3px;
+  text-underline-offset: 0.4em;
 }
 
 @media (min-width: 600px) {
@@ -59,10 +67,6 @@
 
   .nav__links a {
     margin: 0;
-  }
-
-  .nav__links a.active {
-    text-underline-offset: 0.4em;
   }
 }
 
