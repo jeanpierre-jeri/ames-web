@@ -309,6 +309,7 @@
   .nosotros {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 8em;
   }
 
   .nosotros img {
@@ -325,6 +326,8 @@
 
   .slider-nosotros h2 {
     margin-block: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
   }
 }
 
