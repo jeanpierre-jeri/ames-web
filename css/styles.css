@@ -268,8 +268,9 @@
 
 /* Nosotros */
 
-.nosotros {
-  margin-bottom: 2em;
+.bg-nosotros {
+  background-color: #e4e4e4;
+  padding-block: 3em;
 }
 
 .nosotros h2 {
@@ -285,7 +286,7 @@
 .slider-nosotros .swiper-slide {
   font-size: 1rem;
   color: black;
-  background: #f0f0f0;
+  background: #e4e4e4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,7 +314,7 @@
   .nosotros {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 8em;
+    margin-bottom: 4em;
   }
 
   .nosotros img {
@@ -345,7 +346,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
+  margin-top: 1em;
   gap: 1em;
   color: #f0f0f0;
 }
